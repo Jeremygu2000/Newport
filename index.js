@@ -9,7 +9,7 @@ const server = http.createServer(function(req, res){
     } else if (req.url === '/about') {
         res.end('<h1>About page</h1>')
     } else {
-        res.end('page not found')
+        res.end('page not found') 
     }    
 })
 
